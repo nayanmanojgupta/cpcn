@@ -1,0 +1,205 @@
+.navbar-brand
+{
+     font-size:28px;
+}
+
+.nav-item .nav-link:hover
+{
+   color:orange;
+   font-size:29px;
+}
+
+ .nav-item .nav-link
+ {
+     
+     font-size:25px;
+     color:red;
+     margin-left:20px;
+ }
+
+.home-width
+{
+    margin-left:200px;
+}
+
+ .btn
+ {
+     background-color: red;
+     color:#fff;
+     border-radius: 20px;
+      text-align:center;
+      padding:6px 30px;
+      border:solid red 1px;
+     font-size:18px;
+ }
+
+ .btn:hover
+ {
+     font-size:20px;
+ }
+
+ .img-fluid
+ {
+     width:100%;
+     height:100vh;
+ }
+
+
+ .heading
+ {
+     color:orange;
+     
+     font-weight:600;
+     text-align:center;
+     font-size:50px;
+     margin-top:40px;
+ }
+
+ .text
+ {
+     font-size:20px;
+     text-align:center;
+     
+ }
+ .cpcn-width
+ {
+     margin-left:120px;
+ }
+
+ .heading1
+ {
+     font-weight:700;
+     font-size:40px;
+     margin-top:40px;
+     text-align:center;
+ }
+.spinner-grow
+{
+    margin-right:10px;
+}
+hr
+{
+    border-top:5px solid red; 
+}
+.card
+{
+    border:1px solid black;
+    
+}
+
+.center
+{
+    display:flex;
+    justify-content: center;
+  
+}
+.m
+{
+    font-size:30px;
+    margin:20px;
+    
+}
+#stats
+{
+    background-color:skyblue;
+    
+    padding:20px;
+
+}
+
+.card
+{
+    width:30rem;
+}
+#chart
+{
+    height:50vh;
+     
+}
+
+#college
+{
+    font-size:30px;
+    display:flex;
+    justify-content: space-between;
+    
+   
+}
+
+
+
+
+footer {
+    background: black;
+    color: white;
+    margin-top:20px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 30px;
+    
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+ @media(max-width:991px)
+ {
+    .cpcn-width
+    {
+        margin-left:0px;
+    }
+    .heading
+    {
+        font-size:40px;
+    }
+    .home-width
+    {
+        margin-left:0;
+    }
+
+    #stats
+    {
+        padding:5px;
+    }
+
+    .m
+    {
+        font-size:14px;
+        margin:25px;
+    }
+    #college
+    {
+        flex-direction:column;
+        align-items: center;
+    }
+
+   
+  
+ }
